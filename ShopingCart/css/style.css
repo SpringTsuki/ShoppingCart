@@ -1,0 +1,9 @@
+a.btn {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background: #dddddd;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}

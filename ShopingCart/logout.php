@@ -1,0 +1,9 @@
+<?PHP
+session_start();
+unset($_SESSION["user"]);
+session_destroy();
+header("refresh:2;url=index.php")
+?>
+<html>
+<h1>您已注销，正在重定向...</h1>
+</html>
